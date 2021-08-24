@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:wght@400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+:root {
+  --blue-color: #3ebeff;
+  --white-color: #fffbf8;
+  --yellow-color: #fed501;
+  --pink-color: #fe7563;
+  --green-bg: #85cebc;
+  --dark-green: #428677;
+}
+
+::selection {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+body {
+  font-family: "Besley", serif;
+}
+
+nav {
+  background-color: var(--blue-color);
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav__items {
+  display: flex;
+}
+
+.nav__items li {
+  margin-right: 30px;
+}
+
+.nav__items li:nth-last-child() {
+  margin-right: 0;
+}
+
+.nav__items li a {
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 1.2em;
+  transition: color 0.5s ease-in-out;
+}
+
+.nav__items li a:hover {
+  color: var(--pink-color);
+}
