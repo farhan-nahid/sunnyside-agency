@@ -32,6 +32,7 @@ html {
 
 body {
   font-family: "Besley", serif;
+  background-color: var(--white-color);
 }
 
 /* utilities */
@@ -143,7 +144,7 @@ nav {
 
 .transform__image img {
   width: 100%;
-  height: 500px;
+  height: 100%;
   object-fit: cover;
 }
 
