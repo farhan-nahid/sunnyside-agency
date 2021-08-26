@@ -165,11 +165,45 @@ nav {
 }
 
 .category__description p {
-  width: 70%;
+  width: 78%;
   margin: 0 auto;
 }
 
 /* Transform your brand css end */
+
+/* clients css start */
+
+#review h2 {
+  margin: 100px 0 0 0;
+  color: var(--dark-color);
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.clients {
+  margin: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.client {
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.client img {
+  border-radius: 50%;
+  width: 100px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.client p {
+  margin: 20px 0;
+}
+
+/* clients css end */
 
 /* gallery css start */
 
